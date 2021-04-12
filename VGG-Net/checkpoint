@@ -1,0 +1,2 @@
+model_checkpoint_path: "model_cifar10_advanced_1_spike.ckpt"
+all_model_checkpoint_paths: "model_cifar10_advanced_1_spike.ckpt"
