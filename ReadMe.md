@@ -1,4 +1,4 @@
-## A Scatter-and-Gather Spiking ConvolutionalNeural Network on a Reconfigurable Neuromorphic Hardware
+## A Scatter-and-Gather Spiking Convolutional Neural Network on a Reconfigurable Neuromorphic Hardware
 
 ***
 **This code can be used as a reference for the paper: "A Scatter-and-Gather Spiking ConvolutionalNeural Network on a ReconfigurableNeuromorphic Hardware".(*Frontiers in Neuroscience*, submitted, April, 2021)**
