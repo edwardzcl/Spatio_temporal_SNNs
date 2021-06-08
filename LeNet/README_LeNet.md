@@ -45,7 +45,7 @@ Then, it will generate the corresponding log files including: `accuracy.txt`, `s
 
 ## Visualization
 
-```
+
 ### **Firing sparsity**:
 ```sh
 $ cd figs
@@ -81,7 +81,7 @@ LeNet: 16C5-P2-32C5-P2-256
 
 ### **Computing operations**:
 <figure class="half">
-    <img src="./figs/sparsity.png" width="50%"/>
+    <img src="./figs/sop.png" width="50%"/>
 </figure>
 
 **The evaluation results on spiking sparsity and synaptic operations are based on network mapping on our chip.**

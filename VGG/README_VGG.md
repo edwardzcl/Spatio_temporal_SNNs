@@ -61,7 +61,7 @@ it will generate the corresponding log files including: `accuracy.txt`, `sop_num
 
 ### **Firing sparsity**:
 ```sh
-$ python accuracy_speed.py
+$ cd figs
 $ python sparsity.py
 ```
 ### **Computing operations**:
