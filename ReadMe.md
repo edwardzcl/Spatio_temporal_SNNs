@@ -13,7 +13,7 @@ To be completed.
 ## File overview:
 - `README.md` - this readme file.<br>
 - `LeNet` - the project folder for LeNet.<br>
-- `VGG-Net`- the project folder for VGG-Net.<br>
+- `VGG`- the project folder for VGG-Net.<br>
 
 ## Requirements
 ### **Dependencies and Libraries**:
@@ -65,7 +65,7 @@ it will generate the corresponding log files including: `accuracy.txt`, `sop_num
 
 ## Others
 * We do not consider the synaptic operations in the input encoding layer and the spike output in the last classification layer (membrane potential accumulation ) for both original ANN counterparts and converted SNNs.<br>
-* More instructions for running the code can be found in the respective workspace folder (`MNIST/README_MNIST.md`, `CIFAR10/README_CIAFR10.md`).
+* More instructions for running the code can be found in the respective workspace folder (`LeNet/README_LeNet.md`, `VGG/README_VGG.md`).
 
 ## Results
 Our proposed methods achieve the following performances on MNIST, CIFAR10/100:

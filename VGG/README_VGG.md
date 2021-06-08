@@ -4,7 +4,7 @@
 
 ## File overview:
 
-- `README_VGG.md` - this readme file for CIFAR10.<br>
+- `README_VGG.md` - this readme file for VGG-Net on CIFAR10/100.<br>
 
 - `CIFAR10` - VGG-Net on CIFAR10.<br>
   - `tensorlayer` - our provided tensorlayer package.<br>

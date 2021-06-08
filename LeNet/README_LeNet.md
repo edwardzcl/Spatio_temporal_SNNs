@@ -4,7 +4,7 @@
 
 ## File overview:
 
-- `README_LeNet.md` - this readme file for MNIST.<br>
+- `README_LeNet.md` - this readme file for LeNet on MNIST.<br>
 - `spiking_ulils.py` - the functions of spiking convolution and linear.<br>
 - `figs` - visualization folder for SNN performance.<br>
   - `sops.py` - the synaptic operations (SOPs) script for `spiking LeNet` with different quantization precisions on MNIST
