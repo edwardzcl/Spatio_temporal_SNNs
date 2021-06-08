@@ -34,7 +34,6 @@
 * please modify the command line parameters: `--resume True`, and `--learning_rate 0.0001` for another 200 epochs after the first 200 epochs. Totally, 400 training epoch need be performed.  
 
 ### **Run the code**:
-### **Run the code**:
 for example (training, *k=0*, *B=1*, VGG-Net, CIFAR10):
 ```sh
 $ cd VGG/CIFAR10
