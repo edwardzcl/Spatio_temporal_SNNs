@@ -54,7 +54,7 @@ Then, it will print the corresponding ANN test accuracy.
 ### **Run the code**:
 for example (inference, *k=0*, *B=1*, VGG-Net, CIFAR10):
 ```sh
-$ python Spiking_VGG_CIFAR10.py --k 0 --B 1
+$ python Spiking_VGG_CIFAR10.py --k 0 --B 1 --noise_ratio 0
 ```
 it will generate the corresponding log files including: `accuracy.txt`, `sop_num.txt`, and `spike_num.txt` in `./figs/k0B1/`.
 

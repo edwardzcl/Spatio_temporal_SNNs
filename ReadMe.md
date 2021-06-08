@@ -59,7 +59,7 @@ $ python Quant_LeNet_MNIST.py  --k 0 --B 1 --resume True --mode 'inference'
 ### **Run the code**:
 for example (inference, *k=0*, spiking CNN1, CIFAR10):
 ```sh
-$ python Spiking_LeNet_MNIST.py  --k 0 --B 1 
+$ python Spiking_LeNet_MNIST.py  --k 0 --B 1 --noise_ratio 0
 ```
 it will generate the corresponding log files including: `accuracy.txt`, `sop_num.txt`, `spike_collect.txt` and `spike_num.txt` in `./figs/k0B1`.
 
