@@ -1,4 +1,4 @@
-# Instructions for running CIFAR10 experiments
+# Instructions for running CIFAR10/100 experiments
 
 
 
