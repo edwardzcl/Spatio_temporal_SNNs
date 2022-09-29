@@ -7,7 +7,7 @@
 - Spatial conversion and mapping on PAICore2.0 (Scatter-and-Gather, SG): 
   - "[A Scatter-and-Gather Spiking Convolutional Neural Network on a Reconfigurable Neuromorphic Hardware](https://www.frontiersin.org/articles/10.3389/fnins.2021.694170/full)", *Frontiers in Neuroscience*, October, 2021.
 - Temporal conversion and mapping on PAICore1.0 (Store-and-Release, SR): 
-  - "[Modular Building Blocks for Mapping Spiking Neural Networks onto a Programmable Neuromorphic Processor](...)".(*Elsevier Microelectronics Journal*, revised, October, 2022.
+  - "[Modular Building Blocks for Mapping Spiking Neural Networks onto a Programmable Neuromorphic Processor](...)", *Elsevier Microelectronics Journal*, revised, October, 2022.
 ***
 
 ## Citation:
