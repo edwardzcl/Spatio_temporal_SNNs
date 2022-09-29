@@ -1,17 +1,24 @@
 # A Scatter-and-Gather Spiking Convolutional Neural Network on a Reconfigurable Neuromorphic Hardware
 
 ***
-**This code can be used as supplemental material for the paper: "A Scatter-and-Gather Spiking Convolutional Neural Network on a Reconfigurable Neuromorphic Hardware".(*Frontiers in Neuroscience*, revised, June, 2021)**
+**This code can be used as supplemental material for three papers:** 
+- Principle of spatio-temporal ANN-to-SNN conversion: 
+  - "[A Novel Conversion Method for Spiking Neural Network using Median Quantization](https://ieeexplore.ieee.org/document/9180918)", *IEEE ISCAS*, October, 2020.
+- Spatial conversion and mapping on PAICore2.0 (Scatter-and-Gather, SG): 
+  - "[A Scatter-and-Gather Spiking Convolutional Neural Network on a Reconfigurable Neuromorphic Hardware](https://www.frontiersin.org/articles/10.3389/fnins.2021.694170/full)", *Frontiers in Neuroscience*, October, 2021.
+- Temporal conversion and mapping on PAICore1.0 (Store-and-Release, SR): 
+  - "[Modular Building Blocks for Mapping Spiking Neural Networks onto a Programmable Neuromorphic Processor](...)".(*Elsevier Microelectronics Journal*, revised, October, 2022.
 ***
 
 ## Citation:
 To be completed.
 
 ### **Features**:
-- - This supplemental material gives a reproduction function of ANN training, testing and converted SNN inference experiments in our paper. Besides, visualized results for spiking sparsity and synaptic operations (SOPs) are provided. 
+- This supplemental material gives a reproduction function of ANN training, testing and converted SNN inference experiments in our paper. Besides, visualized results for spiking sparsity and synaptic operations (SOPs) are provided. 
 
 ## File overview:
 - `README.md` - this readme file.<br>
+- `video_for_demonstration.webm` - a video for demonstration using PAICore1.0 (PKU-NC64C).<br>
 - `LeNet` - the project folder for LeNet.<br>
 - `VGG`- the project folder for VGG-Net.<br>
 
@@ -42,7 +49,7 @@ pip install -r requirements.txt
 * Select the index of GPU in the training scripts (0 by default)
 
 ### **Run the code**:
-for example (training, *k=0*, *B=1*, LeNet, MNIST):
+for example (ANN training, *k=0*, *B=1*, LeNet, MNIST):
 ```sh
 $ cd LeNet
 $ python Quant_LeNet_MNIST.py  --k 0 --B 1 --resume False --learning_rate 0.001 --mode 'training'
@@ -50,14 +57,14 @@ $ python Quant_LeNet_MNIST.py  --k 0 --B 1 --resume False --learning_rate 0.001 
 
 ## ANN Inference
 ### **Run the code**:
-for example (inference, *k=0*, CNN1, CIFAR10):
+for example (ANN inference, *k=0*, *B=1*, LeNet, MNIST):
 ```sh
 $ python Quant_LeNet_MNIST.py  --k 0 --B 1 --resume True --mode 'inference'
 ```
 
 ## SNN inference
 ### **Run the code**:
-for example (inference, *k=0*, spiking CNN1, CIFAR10):
+for example (SNN inference, *k=0*, *B=1*, LeNet, MNIST):
 ```sh
 $ python Spiking_LeNet_MNIST.py  --k 0 --B 1 --noise_ratio 0
 ```
